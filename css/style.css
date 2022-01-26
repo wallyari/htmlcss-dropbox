@@ -1,0 +1,64 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- GOOGLE FONTS --> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;    
+}
+
+    /*CLEARFIX*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FLOAT */
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.container{
+width: 80%;
+margin:auto
+}
+
+header .container{
+width: 95%;  
+}
+
+header{
+    line-height: 70px;
+}
+.inline-block {
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 1.9rem;
+}
+
+
+.inline-block {
+    display: inline-block;
+}
+.aligne-middle{
+    vertical-align: middle;
+}
+.margin-right{
+    margin-right: 1.9rem;
+}
