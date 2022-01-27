@@ -87,11 +87,11 @@ padding: 10px;
 .jumbotron{
     height: 70vh;
     background-color: lightblue;
-    height: 400px;
+  
     
 }
 .jumbotron .img-jumbo{
-    top: 30px;
+    top: 20px;
     right: 0;
 }
 
@@ -100,7 +100,7 @@ padding: 10px;
 }
 
 main img{
-width: 100%;;
+width: 80%;
 }
 /* BUTTON JUMBOTRON */
 a{
@@ -125,6 +125,9 @@ margin-bottom: 1rem;
 }
 .margin-bottom{
  margin-bottom: 0.5rem;
+}
+.margin-bottom5{
+    margin-bottom: 5rem;
 }
 
 /* PRICING BOX */
@@ -189,6 +192,7 @@ width: calc(100% - 2.0rem);
 
 .card{
  width: calc((100% / 3) - 2rem);
- margin: 0 1rem  ;   
+ margin: 0 2rem 2rem 0  ;   
 }
 
+/* <!-- TEAM DROPBOX --> */
