@@ -32,8 +32,8 @@ body{
 }
 
 .container{
-width: 80%;
-margin:auto
+width: 70%;
+margin: 0 auto;
 }
 
 header .container{
@@ -52,7 +52,6 @@ header nav ul li{
     margin-right: 1.9rem;
 }
 
-
 .inline-block {
     display: inline-block;
 }
@@ -61,4 +60,95 @@ header nav ul li{
 }
 .margin-right{
     margin-right: 1.9rem;
+}
+/* JUMBOTRON */
+h1{
+    font-size: 4.0rem;
+}
+.relative {
+    position: relative;
+}
+
+
+.absolute {
+    position: absolute;
+}
+
+.width-text{
+    width: 35%;
+
+}
+.width-image{
+ width: 65%;
+}
+
+.jumbotron{
+    height: 70vh;
+    background-color: lightblue;
+    height: 400px;
+    
+}
+.jumbotron .img-jumbo{
+    top: 0;
+    right: 0;
+}
+
+.jumbotron .container{
+    width: 80%;
+}
+
+main img{
+width: 100%;;
+}
+/* BUTTON JUMBOTRON */
+a{
+    text-decoration: none;
+    
+}
+
+.button {
+    border: none;
+    padding: 0.6rem 0.9rem;
+    color: white;
+    background-color: blue;
+}
+
+.margin-bottom1{
+margin-bottom: 1rem;
+}
+.margin-bottom-5{
+    margin-bottom: 0.5;
+}
+
+/* PRICING BOX */
+.container-p{
+    width: 70%;
+    min-width: 750px;
+    max-width: 1180px;
+    margin: 10rem auto;
+  }
+h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+.box-pricing{
+    width: calc((100% / 3) - 2rem);
+    margin: ;
+}
+.boxp-header{
+    border:solid black;
+    text-align: center;
+}
+.boxp-main{
+    border:solid black;
+    height: 600px;
+    padding: 2rem;
+    font-size: 0.7rem;
+}
+.dash{
+    border-bottom: solid
+}
+.underline{
+    
 }
