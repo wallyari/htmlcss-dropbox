@@ -114,6 +114,11 @@ a{
     color: white;
     background-color: blue;
 }
+.bg-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 .margin-bottom1{
 margin-bottom: 1rem;
