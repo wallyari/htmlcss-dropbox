@@ -89,7 +89,7 @@ h1{
     
 }
 .jumbotron .img-jumbo{
-    top: 0;
+    top: 30px;
     right: 0;
 }
 
@@ -108,7 +108,7 @@ a{
 
 .button {
     border: none;
-    padding: 0.6rem 0.9rem;
+    padding: 0.5rem ;
     color: white;
     background-color: blue;
 }
@@ -126,7 +126,7 @@ margin-bottom: 1rem;
     min-width: 750px;
     max-width: 1180px;
     margin: 10rem auto;
-  }
+}
 h2{
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -134,15 +134,16 @@ h2{
 }
 .box-pricing{
     width: calc((100% / 3) - 2rem);
-    margin: ;
+    margin: 1.5rem 2.0rem 2rem 0 ;
 }
 .boxp-header{
     border:solid black;
     text-align: center;
+    padding:10px;
 }
 .boxp-main{
     border:solid black;
-    height: 600px;
+    /* height: 610px; */
     padding: 2rem;
     font-size: 0.7rem;
 }
@@ -150,5 +151,16 @@ h2{
     border-bottom: solid
 }
 .underline{
+    padding-bottom: 0.5rem;
+    border-bottom: solid gray;
     
 }
+.boxp-main div{
+    margin: 1.2rem 0;
+}
+
+.boxp-big{
+ width: calc(100%-2rem);   
+
+}
+
