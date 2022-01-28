@@ -258,3 +258,18 @@ width: calc(100% - 2.0rem);
    padding: 2rem;
    filter: invert(1);
 }
+.logo-svg{
+    width: 20%;
+    height: 20%;
+    margin: 2rem 2rem 0;
+  }
+
+.short-underline{
+    border-bottom: 1px solid lime;
+    width: 10%;
+    margin: 0 0 2rem 2rem;
+}
+.content-svg p{
+    padding:0 2rem 2rem;
+    font-size: 0.9rem;
+}
