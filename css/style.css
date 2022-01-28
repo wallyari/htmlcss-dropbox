@@ -131,12 +131,16 @@ margin-bottom: 1rem;
 }
 
 /* PRICING BOX */
+
+/* da controllare */
 .container-p{
     width: 70%;
     min-width: 750px;
     max-width: 1180px;
     margin: 5rem auto;
-}
+} 
+
+
 h2{
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -212,8 +216,28 @@ width: calc(100% - 2.0rem);
 .scarlet{
     background-color: #ff1c1c;
 }
-.loghi-svg{
-    height: 60%;
-    
-
+.container-svg{
+    height: 500px;
 }
+.content-svg{
+    height: 60%;
+}
+.square-box{
+    height: 100%;
+    width: 30%;
+}
+.square-box .box-logo-svg{
+    width: 50%;
+    height: 50%;
+    
+}
+.box-logo-svg img{
+    width: 100%;
+}
+.img-svg{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 2.0rem;
+    filter: invert(1);
+  }
