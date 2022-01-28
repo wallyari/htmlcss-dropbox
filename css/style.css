@@ -197,7 +197,23 @@ width: calc(100% - 2.0rem);
 
 /* <!-- TEAM DROPBOX --> */
 .container-svg img{
-    height: 200px;
-    width: 200px;
-    background-color: lime;
+   
+   
+}
+.green{
+    background-color: #a2d39b;
+}
+.bordeaux{
+    background-color: #61082b;
+}
+.light-blue{
+    background-color: #0193ce;
+}
+.scarlet{
+    background-color: #ff1c1c;
+}
+.loghi-svg{
+    height: 60%;
+    
+
 }
