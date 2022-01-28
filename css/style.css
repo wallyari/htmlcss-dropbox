@@ -256,4 +256,5 @@ width: calc(100% - 2.0rem);
    left: 50%;
    transform: translate(-50% , - 50%);
    padding: 2rem;
+   filter: invert(1);
 }
